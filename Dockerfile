@@ -1,4 +1,4 @@
-FROM php:8.2-cli
+FROM php:8.4.19-cli
 
 # 1. System dependencies
 RUN apt-get update && apt-get install -y \
